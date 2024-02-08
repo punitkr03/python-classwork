@@ -37,3 +37,10 @@ printf("hello \n", "x = ", x, "y = ", y, "z = ", y%3 , "\n")
 def my_fun(**kwargs):
     for key, value in kwargs.items():
         print(key, value)
+
+def myFuns(**kwargs):
+    print(kwargs)
+    for key,value in kwargs.items():
+        print("%s==%s"%(key,value))
+
+myFuns(first='Neil',mid='Nitin',last='Mukesh')
