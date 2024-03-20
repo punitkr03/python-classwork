@@ -46,3 +46,7 @@ class BankAccount:
     def display_account_details(self):
         return f"Account Holder: {self.account_holder}, Account Number: {self.account_number}, Balance: {self.balance}" 
 
+class MyClass:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
